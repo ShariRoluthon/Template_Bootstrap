@@ -1,0 +1,21 @@
+/* Author - Shari Roluthon
+Date - 29th June 2022 */
+
+.parent{
+    background-color: #283747 ;
+}
+.HeadingSize{
+    font-size: 60px;
+}
+
+@media screen and (max-width:576px) {
+    .HeadingSize{
+        font-size: 40px;
+    }
+    .form-outline .w-50{
+        width:100% !important;
+    }
+    .sendStyle{
+        width: 40%;
+    }
+}
